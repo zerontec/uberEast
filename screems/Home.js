@@ -3,7 +3,7 @@ import { View, Text, SafeAreaView, ScrollView } from 'react-native';
 import HeaderTabs from '../components/HeaderTabs';
 import SearchBar from '../components/SearchBar';
 import Categories from '../components/Categories';
-import Restaurants from '../components/Restaurants';
+import RestaurantItem from '../components/RestaurantItem';
 
 
 
@@ -19,7 +19,10 @@ return(
 </View> 
 <ScrollView showsVerticalScrollIndicator={false}>
 <Categories/>
-<Restaurants/>
+<RestaurantItem/>
+<RestaurantItem/>
+<RestaurantItem/>
+
 </ScrollView>
 </SafeAreaView>
 
